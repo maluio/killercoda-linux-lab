@@ -1,0 +1,34 @@
+{
+  "title": "Linux Commands",
+  "description": "Let's learn advanced usages of commands on a Linux system",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "find ",
+        "text": "find1/text.md"
+      },
+      {
+        "title": "dpkg",
+        "text": "dpkg/text.md"
+      },
+      {
+        "title": "openssl",
+        "text": "openssl/text.md"
+      },
+      {
+        "title": "watch",
+        "text": "watch/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
