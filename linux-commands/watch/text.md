@@ -2,8 +2,10 @@ Watch changes of all processes that contain the string "/usr/"
 
 <br>
 
-### Solution
+<details><summary>Solution</summary>
 
-```plain
+```text
 watch 'ps aux | grep "/usr/"'
-```{{exec}}
+```
+
+</details>

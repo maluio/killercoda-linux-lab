@@ -25,39 +25,52 @@ Read the certs, the keys
 
 <br>
 
-### Solution
+### Solutions
 
 [Source](https://www.golinuxcloud.com/openssl-view-certificate/)
 
-```plain
+<details><summary>Solution: Private key</summary>
+
+```shell
 # Generate private key
 openssl genrsa -des3 -out ca.key 4096
 
 # View content
 openssl rsa -noout -text -in ca.key
+```
 
-```{{exec}}
+</details>
 
-```plain
+<details><summary>Solution: CSR</summary>
+
+```shell
 # Generate CSR
 openssl req -new -key ca.key -out client.csr
 
 # View content
 openssl req -noout -text -in client.csr
-```{{exec}}
+```
 
-```plain
+</details>
+
+<details><summary>Solution: CA cert</summary>
+
+```shell
 # Generate a CA cert
 openssl req -new -x509 -days 365 -key ca.key -out ca.cert.pem
 
 # View content
 openssl x509 -noout -text -in ca.cert.pem
-```{{exec}}
+```
+</details>
 
-```plain
+<details><summary>Solution: Signed Cert</summary>
+
+```shell
 # Generate a signed certificate
 ~]# openssl x509 -req -days 365 -in client.csr -CA ca.cert.pem -CAkey ca.key -CAcreateserial -out server.crt
 
 # View content
  openssl x509 -noout -text -in server.crt
- ```{{exec}}
+ ```
+</details>

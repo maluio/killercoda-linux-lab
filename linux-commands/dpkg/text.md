@@ -2,8 +2,11 @@ Get the name of the apt package containing the `git` binary
 
 <br>
 
-### Solution
+<details><summary>Solution</summary>
 
-```plain
+```shell
 dpkg -S /usr/bin/git
-```{{exec}}
+```
+
+</details>
+

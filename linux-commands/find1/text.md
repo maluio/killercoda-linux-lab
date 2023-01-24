@@ -4,7 +4,7 @@ List all files in the current directory ands its subdirectories with the `find` 
 
 <details><summary>Solution</summary>
 
-```plain
+```shell
 find .
 ```
 
