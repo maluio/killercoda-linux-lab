@@ -2,8 +2,10 @@ List all files in the current directory ands its subdirectories with the `find` 
 
 <br>
 
-### Solution
+<details><summary>Solution</summary>
 
 ```plain
 find .
-```{{exec}}
+```
+
+</details>
