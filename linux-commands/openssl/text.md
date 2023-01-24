@@ -2,7 +2,7 @@
 
 ## Private key
 
-* Generate a private key with des3 encryption with a length of 4096
+* Generate a private key with a length of 4096
 * View the content of that key
 
 ## CSR (Certificate Signing Request)
@@ -33,7 +33,7 @@ Read the certs, the keys
 
 ```shell
 # Generate private key
-openssl genrsa -des3 -out ca.key 4096
+openssl genrsa -out ca.key 4096
 
 # View content
 openssl rsa -noout -text -in ca.key
