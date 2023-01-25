@@ -22,6 +22,14 @@
       {
         "title": "Signing Certificates",
         "text": "openssl4/text.md"
+      },
+      {
+        "title": "Viewing Remote Certificates",
+        "text": "openssl5/text.md"
+      },
+      {
+        "title": "Bonus",
+        "text": "openssl_bonus/text.md"
       }
     ],
     "finish": {
