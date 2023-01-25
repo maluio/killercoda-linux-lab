@@ -1,0 +1,34 @@
+{
+  "title": "TLS",
+  "description": "Let's mess around with TLS",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Private Keys",
+        "text": "openssl1/text.md"
+      },
+      {
+        "title": "CSRs",
+        "text": "openssl2/text.md"
+      },
+      {
+        "title": "CAs",
+        "text": "openssl3/text.md"
+      },
+      {
+        "title": "Signing Certificates",
+        "text": "openssl4/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

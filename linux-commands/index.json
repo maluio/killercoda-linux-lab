@@ -16,10 +16,6 @@
         "text": "dpkg/text.md"
       },
       {
-        "title": "openssl",
-        "text": "openssl/text.md"
-      },
-      {
         "title": "watch",
         "text": "watch/text.md"
       }
